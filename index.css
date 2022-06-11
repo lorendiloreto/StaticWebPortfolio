@@ -29,6 +29,14 @@ body {
   padding: 1rem 2rem;
   border-radius: 0.25rem;
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.landing-button:hover {
+  background-color: var(--secondary-theme);
+  border-color: var(--main-theme);
+  color: var(--main-theme);
 }
 
 .logo {
