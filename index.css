@@ -78,13 +78,13 @@ html {
 }
 
 .contact-link {
-  color: var(--secondary-theme);
+  color: var(--main-theme);
   opacity: 80%;
 }
 
 .contact-link:hover {
   opacity: 100%;
-  color: var(--secondary-theme);
+  color: var(--main-theme);
 }
 
 .contact-logo {
@@ -191,13 +191,13 @@ html {
 }
 
 #contact-container {
-  background-color: var(--main-theme);
+  background-color: var(--secondary-theme);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
-  color: var(--secondary-theme);
+  color: var(--main-theme);
 }
 
 #contact-me {
